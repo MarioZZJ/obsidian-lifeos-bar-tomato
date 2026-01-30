@@ -49,7 +49,7 @@
   }
 
   main {
-    width: 320px;
+    width: 100%;
     min-height: 480px;
     display: flex;
     flex-direction: column;

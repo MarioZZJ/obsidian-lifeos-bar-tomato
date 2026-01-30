@@ -33,14 +33,14 @@ html {
 body {
   margin: 0;
   padding: 0;
-  width: 320px;
+  width: 100%;
   min-height: 480px;
   overflow-x: hidden;
   background: transparent !important;
 }
 
 #app {
-  width: 320px;
+  width: 100%;
   min-height: 480px;
   overflow-x: hidden;
   background: transparent;
