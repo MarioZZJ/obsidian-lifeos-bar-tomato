@@ -54,4 +54,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           releaseId: ${{ github.event.release.id }}
+          tauriScript: npm run tauri --
           args: --target ${{ matrix.target }}
