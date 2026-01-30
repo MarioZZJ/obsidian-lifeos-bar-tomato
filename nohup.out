@@ -1,0 +1,14 @@
+     Running BeforeDevCommand (`npm run dev`)
+
+> bar-tomato@0.0.0 dev
+> vite
+
+
+  VITE v7.3.1  ready in 309 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+     Running DevCommand (`cargo  run --no-default-features --color always --`)
+        Info Watching /Users/mariozzj/Documents/project/bar-tomato/src-tauri for changes...
+[1m[92m    Finished[0m `dev` profile [unoptimized + debuginfo] target(s) in 0.46s
+[1m[92m     Running[0m `target/debug/bar-tomato`
