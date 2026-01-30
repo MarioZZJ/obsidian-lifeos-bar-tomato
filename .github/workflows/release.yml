@@ -48,10 +48,14 @@ jobs:
       - name: Install frontend dependencies
         run: npm ci
 
+      - name: Initialize Tauri
+        run: npm run tauri -- init --ci --force
+
       - name: Build Tauri app
         uses: tauri-apps/tauri-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           releaseId: ${{ github.event.release.id }}
+          tauriScript: npm run tauri --
           args: --target ${{ matrix.target }}
